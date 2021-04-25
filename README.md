@@ -1,4 +1,4 @@
-#abOS for "Another Bugged Operative System"
+# abOS for "Another Bugged Operative System"
 
 Based on this YouTube's pĺaylist:
 
