@@ -4,4 +4,4 @@ GPPPARAMS = -m32
 		g++(GPPPARAMS) -o $@ -c $<
 
 %.o: %.s
-		as $(A)
+		as $(ASPARAMS) -o $@ $<
