@@ -10,3 +10,4 @@ objects: loader.o kernel.o
 		as $(ASPARAMS) -o $@ $<
 
 mykernel.bin: linker.ld $(objects)
+		ld $(LDPARAMS) -T $< -o $@ $(objects)
