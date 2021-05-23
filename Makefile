@@ -6,3 +6,5 @@ ASPARAMS = --32
 
 %.o: %.s
 		as $(ASPARAMS) -o $@ $<
+
+mykernel.bin: linker.ld $(objects)
