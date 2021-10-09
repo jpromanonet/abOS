@@ -1,6 +1,6 @@
 // We start by declaring the main kernel function of abOS
 
-void kernelMain()
+void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
     // Just a test message
     printf("Hellow World! | abOS by Juan P. Romano | https://jpromano.net");
