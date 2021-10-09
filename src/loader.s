@@ -1,4 +1,4 @@
-# Here we tell our bootloader that the OS existe and to fire it up.
+# Here we tell our bootloader that the OS exists and to fire it up.
 .set MAGIC, 0x1badb002
 .set FLAGS, (1<<0 | 1<<1)
 .set CHECKSUM, -(MAGIC + FLAGS)
