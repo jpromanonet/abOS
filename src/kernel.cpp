@@ -1,5 +1,11 @@
 // We start by declaring the main kernel function of abOS
 
+// And creating our own printf command for the UI
+void printf(char* str)
+{
+    (unsigned short*)
+}
+
 void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
     // Just a test message
