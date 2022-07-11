@@ -12,8 +12,8 @@ void printf(char* str)
 void kernelMain(void* multiboot_structure, unsigned int magicnumber)
 {
     // Just a test message
-    printf("Hellow World! | abOS by Juan P. Romano | https://jpromano.net");
+    printf("Hello World! | abOS by Juan P. Romano | https://jpromano.net");
 
-    // We use a infinit loop becase we don't want our kernel to stop
+    // We use an endless loop becase we don't want our kernel to stop
     while(1);
 }
